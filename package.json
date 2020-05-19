@@ -1,0 +1,24 @@
+{
+  "name": "express-back-end",
+  "version": "1.0.0",
+  "description": "Boilerplate for the Express backend in an Express-React project",
+  "main": "server.js",
+  "author": "garrettgsb",
+  "license": "MIT",
+  "scripts": {
+    "go": "nodemon server.js",
+    "resetdb": "node bin/resetDatabase.js",
+    "test:server": "NODE_ENV=test npm start"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7",
+    "pg": "^8.1.0",
+    "pg-native": "^3.0.0",
+    "react-transition-group": "^4.4.1",
+    "web-push": "^3.4.4"
+  }
+}
